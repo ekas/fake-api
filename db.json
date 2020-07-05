@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ekas Preet Singh",
+      "password": "abc",
+      "email": "ekas.singh@barco.com"
+    },
+    {
+      "id": 2,
+      "name": "Chet Ram",
+      "password": "abc",
+      "email": "chet.ram@barco.com"
+    },
+    {
+      "id": 3,
+      "name": "Akashdeep Sharma",
+      "password": "abc",
+      "email": "akashdeep.sharma@barco.com"
+    },
+    {
+      "id": 4,
+      "name": "Tarun Juneja",
+      "password": "abc",
+      "email": "tarun.juneja@barco.com"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Node.js",
+      "description": "Node.js development"
+    },
+    {
+      "id": 2,
+      "name": "Mongo db",
+      "description": "Mongo db development"
+    },
+    {
+      "id": 3,
+      "name": "Python",
+      "description": "Python development"
+    },
+    {
+      "id": 4,
+      "name": "C/C++",
+      "description": "C++ development"
+    },
+    {
+      "id": 5,
+      "name": "Java",
+      "description": "Java development"
+    },
+    {
+      "id": 6,
+      "name": "Microsoft.NET",
+      "description": ".NET development"
+    }
+  ],
+  "competencies": [
+    {
+      "id": 1,
+      "userId": 1,
+      "skills": [
+        {
+          "id": 1,
+          "experience": 5,
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 2,
+          "experience": 2,
+          "level": "Intermediate",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "experience": 6,
+          "level": "Advanced",
+          "commnets": ""
+        },
+        {
+          "id": 6,
+          "experience": 6,
+          "level": "Expert",
+          "commnets": ""
+        }
+      ],
+      "certifications": [
+        {
+          "id": 1,
+          "level": "Advanced",
+          "commnets": ""
+        }
+      ],
+      "edxcourses": [
+        {
+          "id": 1,
+          "level": "Expert",
+          "commnets": ""
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Cloud data management",
+      "description": "how to manage data efficiently in cloud"
+    }
+  ],
+  "edxcourses": [
+    {
+      "id": 1,
+      "name": "Web application security",
+      "description": "How to secure web application"
+    }
+  ]
+}
