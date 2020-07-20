@@ -4,117 +4,476 @@
       "id": 1,
       "name": "Ekas Preet Singh",
       "password": "abc",
-      "email": "ekas.singh@barco.com"
+      "email": "ekas@barco.com"
     },
     {
       "id": 2,
       "name": "Chet Ram",
       "password": "abc",
-      "email": "chet.ram@barco.com"
+      "email": "chet@barco.com"
     },
     {
       "id": 3,
-      "name": "Akashdeep Sharma",
+      "name": "User 3",
       "password": "abc",
-      "email": "akashdeep.sharma@barco.com"
+      "email": "user3@barco.com"
     },
     {
       "id": 4,
-      "name": "Tarun Juneja",
+      "name": "User 4",
       "password": "abc",
-      "email": "tarun.juneja@barco.com"
+      "email": "user4@barco.com"
+    },
+    {
+      "id": 5,
+      "name": "User 5",
+      "password": "abc",
+      "email": "user5@barco.com"
+    },
+    {
+      "id": 6,
+      "name": "User 6",
+      "password": "abc",
+      "email": "user6@barco.com"
+    },
+    {
+      "id": 7,
+      "name": "User 7",
+      "password": "abc",
+      "email": "user7@barco.com"
     }
   ],
   "skills": [
     {
-      "id": 1,
+      "id":1,
       "name": "Node.js",
       "description": "Node.js development"
     },
     {
-      "id": 2,
+      "id":2,
       "name": "Mongo db",
       "description": "Mongo db development"
     },
     {
-      "id": 3,
+      "id":3,
       "name": "Python",
       "description": "Python development"
     },
     {
-      "id": 4,
+      "id":4,
       "name": "C/C++",
       "description": "C++ development"
     },
     {
-      "id": 5,
+      "id":5,
       "name": "Java",
       "description": "Java development"
     },
     {
-      "id": 6,
+      "id":6,
       "name": "Microsoft.NET",
       "description": ".NET development"
-    }
+    }            
   ],
   "competencies": [
     {
-      "id": 1,
+      "id":1,
       "userId": 1,
-      "skills": [
+      "skills":
+      [
         {
-          "id": 1,
-          "experience": 5,
-          "level": "Beginner",
-          "commnets": ""
+        "id": 1,
+        "experience": 5,  
+        "level": "Beginner",
+        "commnets": ""
         },
         {
           "id": 2,
-          "experience": 2,
+          "experience": 2,  
           "level": "Intermediate",
           "commnets": ""
         },
         {
           "id": 3,
-          "experience": 6,
+          "experience": 6,  
           "level": "Advanced",
           "commnets": ""
         },
         {
           "id": 6,
-          "experience": 6,
+          "experience": 6,  
           "level": "Expert",
+          "commnets": ""
+        }                
+      ],
+      "certifications":
+      [
+        {
+        "id": 1,
+        "level": "Advanced",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Beginner",
           "commnets": ""
         }
       ],
-      "certifications": [
+      "courses":
+      [
         {
-          "id": 1,
+        "id": 1,
+        "level": "Expert",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Intermediate",
+          "commnets": ""
+        }
+      ]      
+    },
+    {
+      "id":2,
+      "userId": 2,
+      "skills":
+      [
+        {
+        "id": 1,
+        "experience": 5,  
+        "level": "Intermediate",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "experience": 2,  
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "experience": 6,  
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 6,
+          "experience": 6,  
+          "level": "Expert",
+          "commnets": ""
+        }                
+      ],
+      "certifications":
+      [
+        {
+        "id": 1,
+        "level": "Beginner",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Advanced",
+          "commnets": ""
+        },
+        {
+          "id": 3,
           "level": "Advanced",
           "commnets": ""
         }
       ],
-      "edxcourses": [
+      "courses":
+      [
         {
-          "id": 1,
+        "id": 1,
+        "level": "Advanced",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Beginner",
+          "commnets": ""
+        }
+      ]      
+    },
+    {
+      "id":3,
+      "userId": 3,
+      "skills":
+      [
+        {
+        "id": 1,
+        "experience": 5,  
+        "level": "Intermediate",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "experience": 2,  
+          "level": "Intermediate",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "experience": 6,  
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 6,
+          "experience": 6,  
+          "level": "Expert",
+          "commnets": ""
+        }                
+      ],
+      "certifications":
+      [
+        {
+        "id": 1,
+        "level": "Advanced",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Expert",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Beginner",
+          "commnets": ""
+        }
+      ],
+      "courses":
+      [
+        {
+        "id": 1,
+        "level": "Beginner",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Expert",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Intermediate",
+          "commnets": ""
+        }
+      ]      
+    },
+    {
+      "id":4,
+      "userId": 4,
+      "skills":
+      [
+        {
+        "id": 1,
+        "experience": 5,  
+        "level": "Intermediate",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "experience": 2,  
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "experience": 6,  
+          "level": "Expert",
+          "commnets": ""
+        },
+        {
+          "id": 6,
+          "experience": 6,  
+          "level": "Advanced",
+          "commnets": ""
+        }                
+      ],
+      "certifications":
+      [
+        {
+        "id": 1,
+        "level": "Beginner",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Expert",
+          "commnets": ""
+        },
+        {
+          "id": 3,
           "level": "Expert",
           "commnets": ""
         }
-      ]
-    }
+      ],
+      "courses":
+      [
+        {
+        "id": 1,
+        "level": "Beginner",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Beginner",
+          "commnets": ""
+        }
+      ]      
+    },
+    {
+      "id":5,
+      "userId": 5,
+      "skills":
+      [
+        {
+        "id": 1,
+        "experience": 5,  
+        "level": "Intermediate",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "experience": 2,  
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "experience": 6,  
+          "level": "Beginner",
+          "commnets": ""
+        },
+        {
+          "id": 6,
+          "experience": 9,  
+          "level": "Advanced",
+          "commnets": ""
+        }                
+      ],
+      "certifications":
+      [
+        {
+        "id": 1,
+        "level": "Expert",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Expert",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Beginner",
+          "commnets": ""
+        }
+      ],
+      "courses":
+      [
+        {
+        "id": 1,
+        "level": "Advanced",
+        "commnets": ""
+        },
+        {
+          "id": 2,
+          "level": "Intermediate",
+          "commnets": ""
+        },
+        {
+          "id": 3,
+          "level": "Beginner",
+          "commnets": ""
+        }
+      ]      
+    }        
   ],
   "certifications": [
     {
-      "id": 1,
+      "id":1,
       "name": "Cloud data management",
-      "description": "how to manage data efficiently in cloud"
-    }
-  ],
-  "edxcourses": [
+      "description": "how to manage data efficiently in cloud",
+      "url": "https://www.edx.org/course/"
+    },
     {
-      "id": 1,
-      "name": "Web application security",
-      "description": "How to secure web application"
+      "id":2,
+      "name": "Salesforce certified development",
+      "description": "Salesforce certified development",
+      "url": "https://www.edx.org/course/"      
+    },
+    {
+      "id":3,
+      "name": "AWS certified solutions architect",
+      "description": "AWS certified solutions architect",
+      "url": "https://www.edx.org/course/"
+    },
+    {
+      "id":4,
+      "name": "Cisco certified network professional",
+      "description": "Cisco certified network professional",
+      "url": "https://www.edx.org/course/"
+    },
+    {
+      "id":5,
+      "name": "Oracle certified professional",
+      "description": "Oracle certified professional",
+      "url": "https://www.edx.org/course/"
     }
-  ]
+  ],  
+  "courses": [
+      {
+        "id":1,
+        "name": "Web application security",
+        "description": "How to secure web application",
+        "url": "https://www.edx.org/course/"
+      },
+      {
+        "id":2,
+        "name": "Microsoft Azure Secure Services",
+        "description": "Microsoft Azure Secure Services",
+        "url": "https://www.edx.org/course/microsoft-azure-security-services-2"
+      },
+      {
+        "id":3,
+        "name": "Unlocking Information Security – 1",
+        "description": "Unlocking Information Security – 1",
+        "url": "https://www.edx.org/course/unlocking-information-security-part-I"
+      },
+      {
+        "id":4,
+        "name": "Unlocking Information Security: Part II",
+        "description": "Unlocking Information Security: Part II",
+        "url": "https://www.edx.org/course/unlocking-information-security-part-2"
+      },
+      {
+        "id":5,
+        "name": "Planning a Security Incident Response",
+        "description": "Planning a Security Incident Response",
+        "url": "https://www.edx.org/course/planning-a-security-incident-response-2"
+      }
+  ]  
 }
