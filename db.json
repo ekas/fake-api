@@ -41,6 +41,12 @@
       "name": "User 7",
       "password": "abc",
       "email": "user7@barco.com"
+    },
+    {
+      "id": 8,
+      "name": "Akashdeep Sharma",
+      "password": "abc",
+      "email": "akashdeep.sharma@barco.com"
     }
   ],
   "skills": [
